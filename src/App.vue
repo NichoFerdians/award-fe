@@ -1,23 +1,18 @@
 <template>
   <v-app>
     <v-main>
-      <HelloWorld/>
+      <RouterView />
     </v-main>
+
+    <!-- <nav>
+      <RouterLink to="/">Home</RouterLink>
+      <RouterLink to="/about">About</RouterLink>
+    </nav> -->
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'App',
-
-  components: {
-    HelloWorld,
-  },
-
-  data: () => ({
-    //
-  }),
-}
+  name: "App",
+};
 </script>
